@@ -298,6 +298,7 @@ footer{
 
 .imageBox:hover{
 	box-shadow: 0px 3px 50px rgba(113, 115, 119, 1);
+	scale: 1.2;
 }
 
 .imageBox a{
