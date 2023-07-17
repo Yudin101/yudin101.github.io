@@ -424,6 +424,10 @@ footer{
 	body{
 		overflow-x: hidden;
 	}
+
+	nav{
+		flex-direction: column;
+	}
 	
 	.left{
 		margin-left: 3px;
@@ -547,7 +551,7 @@ footer{
 
 @media screen and (max-width: 600px){
 	nav ul{
-		font-size: 1rem;
+		font-size: 1.2rem;
 	}
 
 	nav ul li{
@@ -555,7 +559,7 @@ footer{
 	}
 
 	.left{
-		font-size: 1rem;
+		font-size: 1.5rem;
 	}
 }
 
