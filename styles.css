@@ -267,7 +267,7 @@ footer{
 .thirdSection{
 	max-width: 80vw;
 	margin: auto;
-	height: 80vh;
+	height: 160vh;
 }
 
 .projectBox{
@@ -326,9 +326,21 @@ footer{
 	padding-top: 30px;
 }
 
+#scissorPaperRock{
+	margin-top: 50px;
+}
+
+#scissorPaperRockInfo{
+	margin-top: 60px;
+}
+
+#profileCardInfo{
+	margin-top: 45px;
+}
+
 .githubLink{
 	text-align: center;
-	margin: 20px 0;
+	margin: 50px 0;
 }
 
 .githubLink a{
@@ -463,12 +475,12 @@ footer{
 		flex-direction: column;
 	}
 
-	.thirdSection{
-		height: 200vh;
+	.secondSection{
+		height: 70vh;
 	}
 
-	.secondSection{
-		height: 90vh;
+	.thirdSection{
+		height: 300vh;
 	}
 
 	.box{
