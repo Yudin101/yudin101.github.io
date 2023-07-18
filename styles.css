@@ -255,12 +255,12 @@ footer{
 }
 
 .vertical-desc a{
-	text-decoration: none;
 	color: gray;
 	cursor: pointer;
 }
 
 .vertical-desc a:hover{
+	text-decoration: none;
 	color: #7278ff;
 }
 
