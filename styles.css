@@ -1,4 +1,6 @@
-/*Common CSS*/
+/* -------------------------------------------- */
+
+/* ---------------- Common CSS ---------------- */
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
@@ -144,7 +146,10 @@ footer{
 
 
 
-/*For index.html*/
+/* ------------------------------------------------ */
+
+/* ---------------- For index.html ---------------- */
+
 
 .home{
 	color: #7278ed;
@@ -186,8 +191,10 @@ footer{
 }
 
 
+/* ------------------------------------------------ */
 
-/*For about.html*/
+/* ---------------- For about.html ---------------- */
+
 
 .about{
 	color: #7278ed;
@@ -355,8 +362,9 @@ footer{
 }
 
 
+/* -------------------------------------------------- */
 
-/*For contact.html*/
+/* ---------------- For contact.html ---------------- */
 
 .contact{
 	color: #7278ed;
@@ -384,8 +392,9 @@ footer{
 }
 
 
+/* --------------------------------------------------------------- */
 
-/*For index.html and about.html*/
+/* ---------------- For index.html and about.html ---------------- */
 
 .purple{
 	color: rgb(165, 3, 165);
@@ -397,8 +406,9 @@ footer{
 }
 
 
+/* ----------------------------------------------------------------- */
 
-/*For about.html and contact.html*/
+/* ---------------- For about.html and contact.html ---------------- */
 
 .leftSection img{
 	width: 450px;
@@ -419,7 +429,9 @@ footer{
 
 @media screen and (max-width: 1300px){
 
-/*	Common CSS*/
+	/* -------------------------------------------- */
+
+	/* ---------------- Common CSS ---------------- */
 
 	body{
 		overflow-x: hidden;
@@ -449,7 +461,9 @@ footer{
 		margin: 30px 50px;
 	}
 
-/*	For index.html*/
+	/* ------------------------------------------------ */
+
+	/* ---------------- For index.html ---------------- */
 
 	.firstSection #firstDivIndex{
 		width: 250px;
@@ -473,7 +487,9 @@ footer{
 		left: -50px;
 	}
 
-/*	For about.html*/
+	/* ------------------------------------------------ */
+
+	/* ---------------- For about.html ---------------- */
 
 	.projectBox{
 		flex-direction: column;
@@ -514,7 +530,9 @@ footer{
 		left: 35px;
 	}
 
-/*	For contact.html*/
+	/* -------------------------------------------------- */
+
+	/* ---------------- For contact.html ---------------- */
 
 	#find-me img{
 		top: -47px;
@@ -525,7 +543,9 @@ footer{
 		font-size: 16px;
 	}
 
-/*	For about.html and contact.html*/
+	/* ----------------------------------------------------------------- */
+
+	/* ---------------- For about.html and contact.html ---------------- */
 	
 	.rs-box{
 		font-size: 19px;
@@ -550,6 +570,11 @@ footer{
 }
 
 @media screen and (max-width: 600px){
+
+	/* -------------------------------------------- */
+
+	/* ---------------- Common CSS ---------------- */
+
 	nav ul{
 		font-size: 1.2rem;
 	}
