@@ -8,6 +8,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 body{
 	background: linear-gradient(to bottom right, rgb(0, 0, 50), rgb(0, 0, 23));
 	color: white;
@@ -490,6 +491,10 @@ footer{
 	/* ------------------------------------------------ */
 
 	/* ---------------- For about.html ---------------- */
+
+	html{
+		overflow-y: scroll;
+	}
 
 	.projectBox{
 		flex-direction: column;
