@@ -1,3 +1,8 @@
+:root{
+	--bl-hover: #7278ed;
+	--active: #4c51a6;
+}
+
 /* -------------------------------------------- */
 
 /* ---------------- Common CSS ---------------- */
@@ -47,22 +52,22 @@ nav ul li a::after{
   	position: absolute;
   	width: 100%;
   	transform: scaleX(0);
-  	height: 3px;
+  	height: 1.3px;
   	bottom: 0;
   	left: 0;
-  	background-color: #7278ed;
-  	transform-origin: bottom;
+  	background-color: var(--bl-hover);
+  	transform-origin: right;
   	transition: transform 0.25s ease-out;
 }
 
 nav ul li a:hover::after{
 	transform: scaleX(1);
-  	transform-origin: bottom;
+  	transform-origin: left;
 }
 
 nav ul li a:hover{
-	letter-spacing: 0.1em;
-	color: #7278ed;
+	letter-spacing: 0.05em;
+	color: var(--bl-hover);
 }
 
 hr{
@@ -119,7 +124,7 @@ footer{
 }
 
 .footer-second ul a:hover{
-	color: #7278ed;
+	color: var(--bl-hover);
 }
 
 .footer-rights{
@@ -153,7 +158,7 @@ footer{
 
 
 .home{
-	color: #7278ed;
+	color: var(--active);
 }
 
 .leftSectionIndex{
@@ -198,7 +203,7 @@ footer{
 
 
 .about{
-	color: #7278ed;
+	color: var(--active);
 }
 
 .red{
@@ -359,7 +364,7 @@ footer{
 }
 
 .githubLink a:hover{
-	color: #7278ed;
+	color: var(--bl-hover);
 }
 
 
@@ -368,7 +373,7 @@ footer{
 /* ---------------- For contact.html ---------------- */
 
 .contact{
-	color: #7278ed;
+	color: var(--active);
 }
 
 #find-me{
@@ -389,7 +394,7 @@ footer{
 }
 
 #find-me a:hover{
-	color: #7278ed;
+	color: var(--bl-hover);
 }
 
 
